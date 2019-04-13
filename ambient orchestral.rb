@@ -2,7 +2,6 @@
 
 # Coded by Darin Wilson
 
-#use_random_seed 20190405
 use_random_seed 20190408
 use_bpm 90
 
@@ -10,7 +9,6 @@ alto_intro = true
 tenor_intro = true
 bass_intro = true
 brass_intro = true
-
 live_loop :soprano do
   midi choose([:C5, :D5, :E5, :G5]), sustain: 16, vel: 80, channel: 3
   sleep choose(range 24, 30)
